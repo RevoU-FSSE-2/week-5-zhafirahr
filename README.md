@@ -44,7 +44,9 @@
   <li>Cloudflare, a content delivery network (CDN), was employed to optimize the website's performance and provide enhanced security.</li>
   <li>I used a domain that I've already bought and set up for another website last week. Therefore, what's left is only redirecting it to a different website.</li>
   <li>It can be done by changing the target field to a different website and deleting the old one. I also use CNAME type because it is easier for Netlify.</li>
+  
   ![image](https://github.com/RevoU-FSSE-2/week-5-zhafirahr/assets/47013275/5de9eb9f-f24f-4921-91ee-10a74115f379)
+  
   <li>Afterwards add another record with CNAME type and fill the name field with www and target it to the custom domain website.</li>
   <li>Next, in Netlify, delete the used custom domain on the old website, and click "Add Domain" on your new website in the domain settings menu.</li>
   <li>Follow the instruction to add the custom domain. The finished result will look like this.</li>

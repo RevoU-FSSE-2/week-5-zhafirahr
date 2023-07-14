@@ -2,7 +2,10 @@
 
 # Week 5 Installation Guide (Study Case: For Her Society)
 <p>For Her Society is a non-profit organization engaged in women's empowerment and mental health. For Her Society provides training, support group system and health checks every 1-3 months.</p>
-<p>If u Curious, click this link [link](https://forhersociety.placeblog.site//)</p>
+<p>If u Curious, click this link 
+  
+  [link](https://forhersociety.placeblog.site/)
+</p>
 
 ## Development Process
 <p>This section will document all the development stages of creating the website: design choices, considerations, development stages, etc. Side note: this website was built using HTML and CSS without any framework or Javascript.</p>

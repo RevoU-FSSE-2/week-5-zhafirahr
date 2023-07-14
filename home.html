@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html nighteye="disabled">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="For Her Society, Femtech Based Organization"/>
+    <meta name="keywords" content="Femtech,Women Empowerment, Health" />
+    <meta name="author" content="Zhafirah Rizqy Nur" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>For Her Society</title>
+    <link rel="stylesheet" href="style1.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <link
+      rel="icon"
+      href="images/woman-svgrepo-com.svg"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <nav>
+      <span class="mobile">
+        <img
+          src="images/pngwing.com.png"
+          alt="Hamburger Icon"
+        />
+      </span>
+      <span class="relative-container">
+        <img
+          src="images/pngwing.com.png"
+          alt="Women Empowerment"
+        />
+        <b>For Her Society</b>
+      </span>
+      <ul class="desktop">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Division</a></li>
+        <li><a href="#">Merch</a></li>
+        <li><a href="#">Get In Touch</a></li>
+      </ul>
+      <span id="dark-mode-switch">
+        <p>Dark Mode</p>
+        <label class="switch">
+          <input id="checkbox-dark-mode" onchange="toggleDarkMode()" type="checkbox">
+          <span class="slider round"></span>
+        </label>
+      </span>
+    </nav>
+    <header class="full-screen" id="header">
+      <h1>For Her Society</h1>
+      <p>Femtech Based Organization who focused on Female Empowerment</p>
+      <p>For Her Better Future</p>
+    </header>
+    <main>
+      <section id="penguin-photos">
+        <h2>Hall of Fame</h2>
+        <div class="grid-container">
+          <div id="item-1">
+            <img
+              src="images/group-best-friends-holding-hands.jpg"
+              alt="Women Support Women"
+            />
+          </div>
+          <div id="item-2">
+            <img
+              src="images/maeve-carroll-metoo.png"
+              alt="Me Too Support Group"
+            />
+          </div>
+          <div id="item-3">
+            <img
+              media="(max-width: 720px)"
+              srcset="images/22911594_6715982.jpg"
+              alt="Female"
+            />
+          </div>
+          <div id="item-4">
+            <img
+              src="images/10263266_4331465.jpg"
+              alt="Female Health"
+            />
+          </div>
+          <div id="item-5">
+            <img
+              src="images/asian-woman-reading-text-her-phone.jpg"
+              alt="Women In Tech"
+            />
+          </div>
+        </div>
+      </section>
+      <section id="penguin-facts">
+        <h2>Do You Know That..</h2>
+        <div class="flex-container">
+          <p>Project Semicolon is a movement that was started by suicide survivor Amy Bleuel, 
+            <br>and encourages people to get tattooed with the semicolon symbol.
+            <br>The semicolon symbolizes a continuation of someone’s life. 
+            <br>The semicolon is a representation of strength in the middle of a storm. 
+            <br>It is used as an affirmation of solidarity against a plethora of mental health issues 
+            <br>including suicide,eating disorders and addictive behaviors.
+          </p>
+          <figure>
+            <img
+              src="images/semi-colon.jpg"
+              alt="Semicolon Movement"
+            />
+            <figcaption>Semicolon <em>Movement</em>.</figcaption>
+          </figure>
+        </div>
+      </section>
+      <section id="testimonial">
+        <h2>Buy our member's <br> Best Masterpiece</h2>
+        <div class="flex-container-testi">
+            <figure class="testi-container">
+                <img src="images/16323519_tp194-porpla-poster-07.jpg" alt="DIY Canvas Bag">
+                <figcaption>Cute Canvas Bag</figcaption>
+                <p>$5</p>
+            </figure>
+            <figure class="testi-container">
+                <img src="images/22194404_6589066.jpg" alt="Badges">
+                <figcaption>DIY Badges Female Series</figcaption>
+                <p>$3</p>
+            </figure>
+            <figure class="testi-container">
+                <img src="images/vertical-closeup-shot-beige-pink-knitted-bags.jpg" alt="knit">
+                <figcaption>Knitted Bags</figcaption>
+                <p>$9</p>
+            </figure>
+        </div>
+
+    </section>
+
+      <section id="form-section">
+        <h2>Become Our Member</h2>
+        <form action="#">
+          <fieldset>
+            <legend>Biography:</legend>
+            <div>
+              <label for="fullName">Name:</label>
+              <input id="fullName" type="text" required />
+            </div>
+
+            <div>
+              <label for="email">Email:</label>
+              <input id="email" type="email" required />
+            </div>
+            <div>
+              <label for="dob">Date of Birth</label>
+              <input
+                type="date"
+                id="dob"
+                name="trip-start"
+                value="2023-07-22"
+              />
+            </div>
+            <div>
+              <p>Are you living in Worldwide?</p>
+              <input type="radio" id="yes" name="isTeyvat" value="Male" />
+              <label for="yes">Yes</label>
+              <input type="radio" id="no" name="isAbyss" value="Female" />
+              <label for="no">No</label>
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>Additional information:</legend>
+            <div>
+              <p>Where did you get the information about For Your Society</p>
+              <input
+                id="facebook"
+                type="checkbox"
+                name="info"
+                value="facebook"
+              />
+              <label for="facebook">Facebook</label>
+              <input
+                id="instagram"
+                type="checkbox"
+                name="info"
+                value="instagram"
+              />
+              <label for="instagram">instagram</label>
+              <input
+                id="tiktok"
+                type="checkbox"
+                name="info"
+                value="tiktok"
+              />
+              <label for="tiktok">Tiktok</label>
+              <input
+                id="twitter"
+                type="checkbox"
+                name="info"
+                value="twiter"
+              />
+              <label for="twitter">Twitter</label>
+            </div>
+            <div>
+              <p>Why you wanna join this Organization and Your aspiration for 5 years?</p>
+              <textarea rows="5"></textarea>
+            </div>
+            <div>
+              <p>Upload your favorite Photo:</p>
+              <input
+                type="file"
+                id="photo"
+                name="Photo"
+                required
+                accept="image/png, image/jpeg"
+              />
+            </div>
+          </fieldset>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+    <script>
+      // initial state
+      if (localStorage.getItem("darkMode") === "true") {
+        document.getElementById("checkbox-dark-mode").checked = true;
+        document.body.classList.add("dark-mode");
+      }
+
+      function toggleDarkMode() {
+        document.body.classList.toggle("dark-mode");
+        if (!document.getElementById("checkbox-dark-mode").checked) {
+          localStorage.setItem("darkMode", false);
+        } else {
+          localStorage.setItem("darkMode", true);
+        }
+      }
+    </script>
+  </body>
+</html>

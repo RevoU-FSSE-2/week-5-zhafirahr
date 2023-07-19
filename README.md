@@ -4,7 +4,7 @@
 <p>For Her Society is a non-profit organization engaged in women's empowerment and mental health. For Her Society provides training, support group system and health checks every 1-3 months.</p>
 <p>If u Curious, click this link 
   
-  [link](https://forhersociety.placeblog.site/)
+  [link](https://for-her-society.placeblog.site/)
 </p>
 
 ## Development Process

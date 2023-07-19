@@ -26,17 +26,17 @@ body, html {
   
   }
   .bgimg-1 {
-    background-image: url("images/22911594_6715982.jpg");
+    background-image: url("../images/22911594_6715982.jpg");
     min-height: 100%;
   }
   
   .bgimg-2 {
-    background-image: url("images/group-best-friends-holding-hands.jpg");
+    background-image: url("../images/group-best-friends-holding-hands.jpg");
     min-height: 400px;
   }
   
   .bgimg-3 {
-    background-image: url("images/group-women-spending-time-together.jpg");
+    background-image: url("../images/group-women-spending-time-together.jpg");
     min-height: 400px;
   }
   
@@ -145,10 +145,3 @@ figure img {
   color: var(--background);
   background-color: var(--main);
 }
-
-  /* Turn off parallax scrolling for tablets and phones */
-  /*@media only screen and (max-device-width: 1024px) {
-    .bgimg-1, .bgimg-2, .bgimg-3 {
-      background-attachment: scroll;
-    }
-  }
